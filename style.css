@@ -1,0 +1,121 @@
+body {
+    background: #191919;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    color: #f0f0f0;
+    font-size: 18px;
+    border-collapse: collapse;
+    
+}
+
+.check {
+    text-align: center;
+}
+.price {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.price-old {
+    text-align: center;
+    color: gray;
+}
+td {
+    padding: 10px;
+}
+
+tr {
+    min-height: 40px;
+}
+
+
+tbody tr:hover {
+    box-shadow: 0px 0px 7px 1px rgba(220, 245, 245, 0.8);
+}
+
+.col-width {
+    max-width: 400px;
+}
+
+tr:nth-child(odd) {
+    background-color: #323C50;
+}
+
+tr:nth-child(even) {
+    background-color: #2C3446;
+}
+
+.green {
+    background-color: green;
+    opacity: .5;
+}
+.red {
+    
+    background-color: red;
+    opacity: .5;
+    font-size: 22px;
+}
+
+.td-title {
+    background: #323C50;
+    text-align: center;
+}
+.important{
+    background: #ffe761;
+    color: #323C50;
+}
+
+.clear {
+    background: #191919;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-blue {
+    background: linear-gradient(to right, #6690ba 0%, #7a9fc4 41%, #6690ba 100%);
+    background-size: 200% auto;
+    border-radius: 63px;
+    box-shadow: 0 4px 16px -4px #6690ba;
+    transition: all .3s linear;
+    color: white;
+    padding: 14px 30px;
+    text-align: center;
+    font-size: 18px;
+    background-position: 0 0;
+    transition: 0.5s;
+}
+.btn-blue:hover {
+    color: #FFFFFF;
+    transform: scale(.98);
+    box-shadow: none;
+    background-position: 100% 0;
+    transition: 0.5s;
+}
+
+.btn-orange {
+    background: #ffe761;
+    border-radius: 63px;
+    box-shadow: 0 4px 16px -4px #6690ba;
+    transition: all .3s linear;
+    color: darkslateblue;
+    padding: 14px 30px;
+    text-align: center;
+    font-size: 18px;
+    background-position: 0 0;
+    transition: 0.5s;
+}
+.btn-orange:hover {
+    color: #6690ba;
+    transform: scale(.98);
+    box-shadow: none;
+    
+}
